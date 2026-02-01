@@ -8,7 +8,7 @@
   --muted: rgba(255,255,255,.5);
   --card-bg: rgba(13, 13, 13, 0.75);
   --card-border: rgba(255, 255, 255, 0.06);
-  --wing-scale: 1.6;
+  --wing-scale: 1.8;
   --wave-duration: 6s;
   --intro-fade: 2s;
 }
@@ -296,13 +296,16 @@ body.intro-done .intro {
     flex: 0 1 calc(50% - 8px);
   }
   :root {
-    --wing-scale: 0.7;
+    --wing-scale: 1.2;
   }
 }
 
 @media (max-width: 640px) {
   .link-card {
     flex: 1 1 100%;
+  }
+    :root {
+    --wing-scale: 0.7;
   }
   .nick {
     font-size: 2.5rem;
