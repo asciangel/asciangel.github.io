@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  window.setTimeout(finishIntro, 5000);
+  window.setTimeout(finishIntro, 4000);
 
   intro?.addEventListener('click', finishIntro, { once: true });
   document.addEventListener('keydown', (e) => {
